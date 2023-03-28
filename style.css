@@ -139,3 +139,35 @@ a:hover {
     color: #70755a;
     margin: 0 1rem;
 }
+
+
+/*RESPONSIVE*/
+@media only screen and (max-width:650px) {
+    .footer_container {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:389px) {
+    .footer_link_hidden {
+        display: none;
+    }
+    .main_logo_container {
+        margin: 5rem auto 0;
+        display: flex;
+        justify-content: center;
+    }
+    #logo {
+        width: 60%;
+        height: 60%;
+    }
+    .main_search_box {
+        width: 90%;
+    }
+    .main_buttons_container {
+        display: none;
+    }
+    .main_lenguage_option {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
